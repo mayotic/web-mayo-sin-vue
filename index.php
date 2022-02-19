@@ -109,13 +109,25 @@
   <section class="">
   <div id="consultoria"></div>
   <div class="container-fluid">
-    <div class="ml-3 title-page py-4"><span class="destacado">consultoRía</span> contenido producción difusión  </div>
+    <div class="ml-3 title-page py-4 text-center animate"
+          data-animate="fadeInRightBig"
+          data-duration="1s"
+          data-delay="0.6s"
+          data-offset="100"
+          data-iteration="1">
+          <span class="destacado text-white">consultoRía</span> contenido producción difusión  
+    </div>
     <article class="d-flex align-items-center">
       <div class="col-6 text-end">
         <img src="img/img-ref.png" alt="consultoria" class="img-fluid">
       </div>
       <div class="col-6 relative">
-      <img src="img/consultoria.svg" alt="consultoria" class="triangle1">
+      <img src="img/consultoria.svg" alt="consultoria" class="triangle1 animate"
+          data-animate="zoomIn"
+          data-duration="4s"
+          data-delay="0.3s"
+          data-offset="100"
+          data-iteration="1">
       </div>
     </article>
     <article class="d-flex">
@@ -137,7 +149,7 @@
     <!--scripts-->
     <script  src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
     <script src="js/jquery.scrolla.min.js"></script>
-    <script src="js/multi-animated-counter.js"></script>
+    <!-- <script src="js/multi-animated-counter.js"></script> -->
     <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" crossorigin="anonymous"referrerpolicy="no-referrer" ></script>

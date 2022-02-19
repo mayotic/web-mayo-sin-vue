@@ -22,7 +22,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/menu.css"/>
+    <link rel="stylesheet" href="css/counters.css"/>
     <link rel="stylesheet" href="css/styles.css"/>
     <title>Web Mayo</title>
   </head>
