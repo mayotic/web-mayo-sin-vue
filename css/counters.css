@@ -1,0 +1,33 @@
+.num {
+  position: relative;
+}
+.num-300 {
+  top: 0;
+}
+.num-300 .text-num {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+.num-17 .text-num {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+.num-12 .text-num {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+.num-600 .text-num {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  font-weight: 600;
+}
+.num-40 .text-num {
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+}
+.num-40 .text-num .years {
+  font-size: 2rem;
+  font-weight: 600;
+}

@@ -1,5 +1,6 @@
 body {
   background: #ccc;
+  font-family: "Montserrat", sans-serif;
 }
 
 html {
@@ -11,17 +12,36 @@ html {
 h1 {
   font-family: "Montserrat", sans-serif;
   color: #fff;
+  font-weight: 400;
 }
 h2 {
   font-family: "Syncopate", sans-serif;
-  font-size: 7rem;
+  font-size: 6rem;
   font-weight: 700;
   margin: 0;
   padding: 0;
-  line-height: 8rem;
+  line-height: 7rem;
   color: #fff;
 }
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+  line-height: 4.2rem;
+}
+.container-total {
+  overflow-x: hidden;
+}
 /* video background */
+#background-video-fondo-triangulos {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  position: absolute;
+  position: fixed;
+  z-index: -1;
+}
+/* video background header*/
 #background-video-header {
   height: 100vh;
   width: 100%;
@@ -53,4 +73,53 @@ header {
 }
 .textBaner {
   padding: 6rem;
+}
+.txt {
+  padding-top: 4rem;
+}
+/* datos */
+
+.bg-claro {
+  /* min-height: 100vh; */
+  background: linear-gradient(
+    339.73deg,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.95)
+  );
+  width: 100%;
+}
+.face1 {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 5;
+}
+/*consultoria*/
+
+.title-page {
+  font-family: Syncopate;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 29px;
+  color: #c6d7ea;
+}
+.title-page .destacado {
+  font-size: 53px;
+  line-height: 55px;
+  color: #234364;
+}
+.bg-claro-deg {
+  min-height: 200px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  width: 100%;
+}
+.triangle1 {
+  position: relative;
+}
+.triangle2 {
+  position: relative;
 }

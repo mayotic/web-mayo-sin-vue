@@ -1,13 +1,44 @@
-main {
-  max-width: 100%;
+.cab-ctn {
+  position: relative;
+  width: 100%;
+  z-index: 10;
+  background-color: transparent;
 }
+.cab-ctn.fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000d1e;
+  transition: all 1.5 ease;
+  padding: 0.5rem 0;
+}
+
+/*menu superior*/
+
+nav.menu-right ul li {
+  align-items: right;
+}
+nav.menu-right ul li a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: end;
+}
+nav.menu-right ul li a:hover {
+  color: #8fe3e9;
+}
+
 aside {
   position: fixed;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
-  background: linear-gradient(200deg, #27156e, #6a2a88, #9f4981);
+  background: #fff;
+
+  /* background: linear-gradient(200deg, #27156e, #6a2a88, #9f4981); */
   opacity: 0;
   visibility: hidden;
   transition: all 0.5s ease;
@@ -35,14 +66,16 @@ nav ul li {
   line-height: 20vh;
 }
 nav ul li a {
+  font-family: "Syncopate", sans-serif;
+  font-weight: bold;
   font-size: 1.5em;
   transition: all 0.5s ease;
   display: block;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 1);
 }
 nav ul li a:hover {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(0, 0, 0, 0.9);
   transform: scale(1.1);
 }
 nav ul li a:before {
@@ -79,7 +112,7 @@ button:hover {
   position: fixed;
   top: 40px;
   right: 60px;
-  color: white;
+  color: rgb(0, 0, 0);
   z-index: 3;
   cursor: pointer;
 }
@@ -91,11 +124,4 @@ button:hover {
   width: 85px;
   height: 85px;
   cursor: pointer;
-}
-
-/* menu lateral */
-.menu-right {
-  text-align: right;
-  font-size: 0.8rem;
-  font-weight: 400;
 }
