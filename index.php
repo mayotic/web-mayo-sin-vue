@@ -79,6 +79,7 @@
     <!--scripts-->
     <script  src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
     <script src="js/jquery.scrolla.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <!-- <script src="js/multi-animated-counter.js"></script> -->
     <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
@@ -87,8 +88,19 @@
     
     
     <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
     <script>
       var rellax = new Rellax(".rellax");
     </script>
+     <script>
+            var blocks = document.getElementsByClassName("block");
+            var container1 = document.getElementsByClassName("container1");
+            var hs = new HorizontalScroll.default({
+                blocks: blocks,
+                container1: container1,
+                isAnimated: true,
+                springEffect: 0.8,
+            });
+        </script>
   </body>
 </html>

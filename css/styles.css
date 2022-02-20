@@ -207,3 +207,88 @@ header {
   top: -5px;
   z-index: 5;
 }
+
+/*slick efects*/
+.slick-list {
+  overflow: visible;
+}
+.slick-prev,
+.slick-next {
+  color: #8fe3e9;
+  border: 1px solid #224364;
+}
+.slick-current {
+  transform: scale(1.2);
+  transition-timing-function: linear;
+  opacity: 1 !important;
+}
+
+.slick-slide {
+  transition-duration: 2s;
+  transition-property: transform;
+  transition-timing-function: ease;
+  opacity: 0.3;
+}
+.slick-slide:hover {
+  transform: scale(1.2);
+}
+
+/*block*/
+.box {
+  overflow: hidden;
+}
+.block {
+  position: relative;
+  width: 580px;
+  height: 460px;
+  margin: 10px 300px 20px 80px;
+}
+
+h1 {
+  position: absolute;
+  font-family: "Monument Extended";
+  font-weight: lighter;
+  font-size: 64px;
+}
+
+.block-1 {
+  background: url(../img/img-ref.png) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block-2 {
+  background: url(../img/img-ref.png) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block-3 {
+  background: url(../img/img-ref.png) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block-4 {
+  background: url(../img/img-ref.png) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.block-5 {
+  background: url(../img/img-ref.png) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.container1 {
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+.block-1 h1,
+.block-3 h1,
+.block-5 h1 {
+  bottom: 0;
+  right: -60px;
+}
+
+.block-2 h1,
+.block-4 h1 {
+  right: -60px;
+}
