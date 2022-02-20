@@ -4,7 +4,7 @@
   <div class="container-fluid pb-10">
     <div class="ml-3 title-page py-4 text-center animate"
           data-animate="fadeInRightBig"
-          data-duration="3s"
+          data-duration="2s"
           data-delay="0s"
           data-offset="100"
           data-iteration="1">
@@ -14,7 +14,7 @@
     <article class=" row mt-8">
       <div class="col-12 col-md-6 text-end ">
         <img src="img/img-ref.png" alt="consultoria" class="img-fluid img-consultoria animate"
-          data-animate="fadeIn"
+          data-animate="fadeInLeft"
           data-duration="2s"
           data-delay="0.3s"
           data-offset="100"
@@ -42,7 +42,7 @@
     </article>
 
     <article class=" row">
-    <div class="col-12 col-md-6 relative">
+    <div class="col-12  col-md-6 relative">
     <div class="triangle2 animate"
             data-animate="zoomIn"
             data-duration="4s"
@@ -51,7 +51,7 @@
             data-iteration="1">
             <img src="img/medical.svg" alt="consultoria">
         </div>
-        <section class="text-block text-triangle2 animate"
+        <section class="offset-2 text-block text-triangle2 animate"
           data-animate="fadeIn"
           data-duration="3s"
           data-delay="0.3s"
@@ -63,7 +63,7 @@
       </div>
       <div class="col-12 col-md-6 relative">
         <img src="img/img-ref.png" alt="consultoria" class="img-fluid img-consultoria animate"
-            data-animate="fadeIn"
+            data-animate="fadeInRight"
             data-duration="2s"
             data-delay="0.3s"
             data-offset="100"

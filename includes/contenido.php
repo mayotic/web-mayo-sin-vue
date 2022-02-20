@@ -7,7 +7,7 @@
 
         <div class="title-page-dark py-4 text-center animate"
               data-animate="fadeInRightBig"
-              data-duration="3s"
+              data-duration="2s"
               data-delay="0s"
               data-offset="100"
               data-iteration="1">
@@ -16,20 +16,34 @@
 
       <article class="col-8 row mt-8">
         <div class="col-5 text-block pt-5">
-          <h4 class="color-blue">Medical writing</h4>
-          elaboración de artículos científicos, abstracts, pósteres y protocolos en todas las áreas terapéuticas
+          <h4 class="color-blue animate"
+            data-animate="fadeInUp"
+            data-duration="1s"
+            data-delay="0s"
+            data-offset="100"
+            data-iteration="1">
+            Medical writing</h4>
+            <div class="animate"
+            data-animate="fadeInUp"
+            data-duration="1s"
+            data-delay="0s"
+            data-offset="100"
+            data-iteration="1">
+            elaboración de artículos científicos, abstracts, pósteres y protocolos en todas las áreas terapéuticas
+            </div>
+         
         </div>
         <div class="col-7 d-flex flex-column">
         <img src="img/img-ref.png" width="300" alt="medical writing" class="img-fluid shadow rounded-img  animate"
           data-animate="fadeInUp"
           data-duration="1s"
-          data-delay="0s"
+          data-delay="0.4s"
           data-offset="100"
           data-iteration="1">
           <img src="img/img-ref.png" width="300" alt="medical writing" class="img-fluid shadow rounded-img img-writing animate"
           data-animate="fadeInUp"
           data-duration="1s"
-          data-delay="0s"
+          data-delay="0.5s"
           data-offset="100"
           data-iteration="1">
         </div>
@@ -41,19 +55,32 @@
         <img src="img/img-ref.png" width="300" alt="medical writing" class="img-fluid shadow rounded-img  animate"
           data-animate="fadeInUp"
           data-duration="1s"
-          data-delay="0s"
+          data-delay="0.4s"
           data-offset="100"
           data-iteration="1">
           <img src="img/img-ref.png" width="300" alt="medical writing" class="img-fluid shadow rounded-img img-gestion animate"
           data-animate="fadeInUp"
           data-duration="1s"
-          data-delay="0s"
+          data-delay="0.5s"
           data-offset="100"
           data-iteration="1">
         </div>
         <div class="col-5 text-block pt-5">
-          <h4 class="color-blue">Gestión de autores</h4>
-          redacción propia de contenidos y gestión y comunicación directa con autores.
+          <h4 class="color-blue animate"
+            data-animate="fadeInUp"
+            data-duration="1s"
+            data-delay="0s"
+            data-offset="100"
+            data-iteration="1">Gestión de autores</h4>
+            <div class="animate"
+            data-animate="fadeInUp"
+            data-duration="1s"
+            data-delay="0s"
+            data-offset="100"
+            data-iteration="1">
+            redacción propia de contenidos y gestión y comunicación directa con autores.
+            </div>
+          
         </div>
       </article>
 

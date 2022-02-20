@@ -4,8 +4,12 @@
           <img src="img/FACE-1.png" alt="face1" class="face1">
      </div> 
     <section class="container-fluid row  justify-content-end relative">
-      <h3 class="col-lg-7 text-end mt-5"
-         >
+      <h3 class="col-lg-7 text-end mt-5 animate"
+            data-animate="fadeInUp"
+            data-duration="1s"
+            data-delay="0.s"
+            data-offset="100"
+            data-iteration="1">
           Facilitando el acceso al <b>conocimiento 
           científico-sanitario</b>
       </h3>

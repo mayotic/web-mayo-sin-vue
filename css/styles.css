@@ -30,7 +30,7 @@ h3 {
 }
 h4 {
   font-family: "Montserrat", sans-serif;
-  font-size: 2.2rem;
+  font-size: 2.3rem;
   font-weight: 2.3rem;
   font-weight: 700;
 }
@@ -38,7 +38,7 @@ h4 {
   overflow-x: hidden;
 }
 .color-blue {
-  color: #014293;
+  color: #224364;
 }
 /* margenes personalizados*/
 .mt-8 {
@@ -113,6 +113,7 @@ header {
   left: 0;
   top: -100px;
   z-index: 5;
+  opacity: 0.8;
 }
 /*consultoria*/
 
@@ -157,13 +158,13 @@ header {
 }
 .triangle2 {
   position: absolute;
-  top: -100px;
+  top: -120px;
   right: -100px;
   color: #fff;
 }
 .text-triangle2 {
   position: relative;
-  top: 10%;
+  top: 20%;
   left: 30%;
   z-index: 2;
   color: #fff;
@@ -182,6 +183,7 @@ header {
   right: 0;
   bottom: 0;
   z-index: 5;
+  opacity: 0.8;
 }
 .img-writing {
   margin-top: -30px;
@@ -198,4 +200,10 @@ header {
 .bg-produccion {
   background: url("../img/bg-green.png");
   background-size: cover;
+}
+.face3 {
+  position: absolute;
+  left: 0;
+  top: -5px;
+  z-index: 5;
 }
