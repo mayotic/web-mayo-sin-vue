@@ -94,10 +94,10 @@
     </script>
      <script>
             var blocks = document.getElementsByClassName("block");
-            var container1 = document.getElementsByClassName("container1");
+            var container = document.getElementsByClassName("container");
             var hs = new HorizontalScroll.default({
                 blocks: blocks,
-                container1: container1,
+                container: container,
                 isAnimated: true,
                 springEffect: 0.8,
             });
