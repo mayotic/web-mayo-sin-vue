@@ -72,11 +72,10 @@ h4 {
 }
 .bg-oscuro {
   height: 100vh;
-  background: linear-gradient(
-    339.73deg,
-    rgba(0, 12, 14, 0.20) 14.14%,
-    rgba(0, 0, 0, 0.35) 77.68%
-  );
+  background:  linear-gradient(
+      339.73deg,
+      rgba(1, 12, 43, 0.2) 14.14%,
+      rgba(1, 7, 24, 0.8) 77.68%);
   /* background: radial-gradient(circle at 60%,rgba(16, 44, 73,0), rgba(16, 44, 73,.8) 60%); */
   width: 100%;
 }

@@ -10,7 +10,7 @@
               consultoRía contenido producción <span class="destacado">difusión</span>  
     </div>
 
-<!-- <section class="text-center">
+<section class="text-center">
 <div class="center">
   <div class="d-flex flex-column align-items-center">
       <img src="img/EFH_2.png" alt="" class="img-fluid">
@@ -31,12 +31,12 @@
     <div><img src="img/EFH_2.png" alt="" class="img-fluid"></div>
     <div><img src="img/EFH_2.png" alt="" class="img-fluid"></div>
     </div>
-</section> -->
+</section>
     
 
-      <div class="box">
+      <!-- <div class="box">
               <div class="container">
-                  <div class="block block-1">gdsfgdfsgsdfasfsad
+                  <div class="block block-1">
                       <h1>asterisks.</h1>
                   </div>
                   <div class="block block-2">
@@ -52,7 +52,7 @@
                       <h1>mouthwash.</h1>
                   </div>
               </div>
-          </div>
+          </div> -->
 
 
   </section>
