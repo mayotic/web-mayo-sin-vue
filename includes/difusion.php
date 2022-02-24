@@ -15,6 +15,13 @@
   <div class="d-flex flex-column align-items-center">
       <img src="img/EFH_2.png" alt="" class="img-fluid">
       <article class="my-4 col-8">
+      <h4>El Farmacéutico Hospitales </h4>
+      <div>El Farmacéutico es ​el curador y facilitador ​de contenidos de calidad ​en la divulgación del ​conocimiento al farmacéutico hospitalario.</div>
+      </article>
+    </div>
+    <div class="d-flex flex-column align-items-center">
+      <img src="img/EFH_2.png" alt="" class="img-fluid">
+      <article class="my-4 col-8">
       <h4>El Farmacéutico Hospitales</h4>
       <div>El Farmacéutico es ​el curador y facilitador ​de contenidos de calidad ​en la divulgación del ​conocimiento al farmacéutico hospitalario.</div>
       </article>
@@ -26,10 +33,14 @@
       <div>El Farmacéutico es ​el curador y facilitador ​de contenidos de calidad ​en la divulgación del ​conocimiento al farmacéutico hospitalario.</div>
       </article>
     </div>
-    <div><img src="img/EFH_2.png" alt="" class="img-fluid"></div>
-    <div><img src="img/EFH_2.png" alt="" class="img-fluid"></div>
-    <div><img src="img/EFH_2.png" alt="" class="img-fluid"></div>
-    <div><img src="img/EFH_2.png" alt="" class="img-fluid"></div>
+    <div class="d-flex flex-column align-items-center">
+      <img src="img/EFH_2.png" alt="" class="img-fluid">
+      <article class="my-4 col-8">
+      <h4>El Farmacéutico Hospitales</h4>
+      <div>El Farmacéutico es ​el curador y facilitador ​de contenidos de calidad ​en la divulgación del ​conocimiento al farmacéutico hospitalario.</div>
+      </article>
+    </div>
+    
     </div>
 </section>
     
